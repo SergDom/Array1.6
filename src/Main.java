@@ -13,6 +13,27 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");}
 
     }
+
+        System.out.println();
+        System.out.println("Задание 2");
+
+
+            int maxAmount = -1;
+            int minAmount = 100;
+        for (int k = 0; k < arr.length; k++) {
+            if (arr[k] > maxAmount) {
+                maxAmount = arr[k];
+            }
+        }
+        System.out.println("Максимальная сумма трат за день составила " + maxAmount + " рублей");
+
+        for (int j = 0; j < arr.length; j++) {
+            if (arr[j] < minAmount) {
+                minAmount = arr[j];
+            }
+        }
+        System.out.println("Минимальная сумма трат за день составила " + minAmount + " рублей");
+
     }
 }
 
