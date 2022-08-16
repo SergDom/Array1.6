@@ -23,7 +23,6 @@ public class Main {
             if (sum >= arr.length) {
                 System.out.println("Сумма трат за месяц составила " + sum + " рублей");
             }
-
         }
 
         System.out.println();
@@ -67,12 +66,13 @@ public class Main {
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
-        for (int i = reverseFullName.length-1;  i > 0;  i--);
+        for (int i = reverseFullName.length-1;  i > 0;  i--)
         {
-            System.out.print(reverseFullName[i]);
+            System.out.print(reverseFullName[i]);}
+            if (reverseFullName.length >= 1) {
+                System.out.print(reverseFullName[0]);}
         }
     }
-}
 
 
 
