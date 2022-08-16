@@ -28,7 +28,6 @@ public class Main {
         System.out.println();
         System.out.println("Задание 2");
 
-
         int maxAmount = -1;
         int minAmount = 100;
         for (int k = 0; k < arr.length; k++) {
@@ -48,7 +47,6 @@ public class Main {
         System.out.println();
         System.out.println("Задание 3");
 
-
         double[] arrAver = new double[]{2, 4, 8, 12, 22, 54, 91};
         double sumAver = 0;
 
@@ -60,7 +58,6 @@ public class Main {
         {
             System.out.println("Средняя Сумма трат за месяц составила " + sumAver + " рублей");
         }
-
         System.out.println();
         System.out.println("Задание 4");
 
