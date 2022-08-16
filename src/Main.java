@@ -69,7 +69,7 @@ public class Main {
 
         for (int i = reverseFullName.length-1;  i > 0;  i--);
         {
-            System.out.print(reverseFullName);
+            System.out.print(reverseFullName[i]);
         }
     }
 }
