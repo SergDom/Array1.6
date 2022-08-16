@@ -4,22 +4,24 @@ public class Main {
         System.out.println();
         System.out.println("Задание 1");
 
-        int[] arr = new int[] {2, 4, 8, 12, 22, 54, 91};
+        int[] arr = new int[]{2, 4, 8, 12, 22, 54, 91};
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++)
-            sum +=arr[i]; {
+            sum += arr[i];
+        {
             if (sum >= arr.length) {
-        System.out.println("Сумма трат за месяц составила " + sum + " рублей");}
+                System.out.println("Сумма трат за месяц составила " + sum + " рублей");
+            }
 
-    }
+        }
 
         System.out.println();
         System.out.println("Задание 2");
 
 
-            int maxAmount = -1;
-            int minAmount = 100;
+        int maxAmount = -1;
+        int minAmount = 100;
         for (int k = 0; k < arr.length; k++) {
             if (arr[k] > maxAmount) {
                 maxAmount = arr[k];
@@ -34,8 +36,25 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + minAmount + " рублей");
 
+        System.out.println();
+        System.out.println("Задание 3");
+
+
+        double[] arrAver = new double[]{2, 4, 8, 12, 22, 54, 91};
+        double sumAver = 0;
+
+        for (int n = 0; n < arr.length; n++)
+            sumAver += arr[n];
+        {
+            if (sumAver >= arrAver.length)
+                sumAver = sumAver / arrAver.length;}
+        {
+            System.out.println("Средняя Сумма трат за месяц составила " + sumAver + " рублей");
+        }
     }
 }
+
+
 
 
 
