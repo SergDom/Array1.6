@@ -66,6 +66,19 @@ public class Main {
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
+
+        System.out.println();
+        System.out.println("Задание 5");
+
+        int digits [][] = {{1, 0, 1},{0, 1, 0}, {1, 0, 1}};
+            for (int i=0;i < digits.length;i++){
+                for (int j=0; j < digits.length; j++){
+        System.out.print(digits[i][j]);}
+                System.out.println();}
+
+
+        System.out.println();
+        System.out.println("Задание 6");
     }
 }
 
