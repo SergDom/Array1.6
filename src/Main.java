@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Main {
 
     public static int[] generateRandomArray() {
@@ -79,6 +82,21 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание 6");
+
+        int line [] = {5, 4, 3, 2, 1};
+        for (int i=0; i< line.length; i++){
+        System.out.print(line[i] + " ");}
+
+        System.out.println();
+
+        String lineArr = Arrays.toString(line);
+
+        StringBuilder sb = new StringBuilder(lineArr);
+        sb.reverse();
+        //String str = Arrays.toString(new StringBuilder[]{sb.reverse()});
+
+        System.out.println(sb);
+
     }
 }
 
