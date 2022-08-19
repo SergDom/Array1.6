@@ -91,8 +91,9 @@ public class Main {
 
         String lineArr = Arrays.toString(line);
 
-        StringBuilder sb = new StringBuilder(lineArr);
+        StringBuilder sb =  new StringBuilder(lineArr);
         sb.reverse();
+        sb.toString();
         //String str = Arrays.toString(new StringBuilder[]{sb.reverse()});
 
         System.out.println(sb);
