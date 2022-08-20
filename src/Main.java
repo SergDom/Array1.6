@@ -24,8 +24,7 @@ public class Main {
             sum += arr[i];
         }
 
-            System.out.println("Сумма трат за месяц составила " + sum + " рублей");
-
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
 
 
         System.out.println();
@@ -39,7 +38,7 @@ public class Main {
             }
 
 
-            System.out.println("Максимальная сумма трат за день составила " + maxAmount + " рублей");
+        System.out.println("Максимальная сумма трат за день составила " + maxAmount + " рублей");
 
 
         for (int j = 0; j < arr.length; j++)
@@ -47,7 +46,7 @@ public class Main {
                 minAmount = arr[j];
             }
 
-            System.out.println("Минимальная сумма трат за день составила " + minAmount + " рублей");
+        System.out.println("Минимальная сумма трат за день составила " + minAmount + " рублей");
 
 
         System.out.println();
@@ -56,10 +55,10 @@ public class Main {
         double sumAver = 0;
 
         for (int n = 0; n < arr.length; n++) {
-            sumAver += arr[n]/arr.length;
+            sumAver += arr[n] / arr.length;
         }
 
-            System.out.println("Средняя Сумма трат за месяц составила " + sumAver + " рублей");
+        System.out.println("Средняя Сумма трат за месяц составила " + sumAver + " рублей");
 
         System.out.println();
         System.out.println("Задание 4");
@@ -73,36 +72,33 @@ public class Main {
         System.out.println();
         System.out.println("Задание 5");
 
-        int digits [][] = {{1, 0, 1},{0, 1, 0}, {1, 0, 1}};
-            for (int i=0;i < digits.length;i++){
-                for (int j=0; j < digits.length; j++){
-        System.out.print(digits[i][j]);}
-                System.out.println();}
+        int digits[][] = {{1, 0, 1}, {0, 1, 0}, {1, 0, 1}};
+        for (int i = 0; i < digits.length; i++) {
+            for (int j = 0; j < digits.length; j++) {
+                System.out.print(digits[i][j]);
+            }
+            System.out.println();
+        }
 
 
         System.out.println();
         System.out.println("Задание 6");
 
-        int line [] = {5, 4, 3, 2, 1};
-        for (int i=0; i< line.length; i++)
-        System.out.print(line[i] + " ");
+        int line[] = {5, 4, 3, 2, 1};
+        for (int i = 0; i < line.length; i++)
+            System.out.print(line[i] + " ");
 
         System.out.println();
-        int k=line.length-1;
-        for(;k>=0;k--)
-        System.out.print(line[k] + " ");
-
+        int k = line.length - 1;
+        for (; k >= 0; k--)
+            System.out.print(line[k] + " ");
 
 //        Arrays.toString(line);
 
 //        System.out.println();
 //        System.out.println(Arrays.toString(line));
 
-
 //        int lineArr = String.valueOf(line[]);
-
-
-
 
 //        StringBuilder sb =  new StringBuilder(lineArr);
 //        sb.reverse();
@@ -114,11 +110,16 @@ public class Main {
         System.out.println();
         System.out.println("Задание 7");
 
-//        int sort [] = {5, 8, 2, 3, 9};
-//        for (int element: sort);
-//
-//            System.out.println(sort);
-//        int sort = sort-1;
+        int sort[] = {5, 8, 2, 3, 9};
+        for (int n : sort){
+        System.out.print(n + " ");}
+            System.out.println();
+        int reverse = sort.length - 1;
+        for (; reverse >=0; reverse--)
+            System.out.print(line[reverse] + " ");
+
+
+
 
 
 
