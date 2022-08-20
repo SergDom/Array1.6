@@ -116,7 +116,7 @@ public class Main {
             System.out.println();
         int reverse = sort.length - 1;
         for (; reverse >=0; reverse--)
-            System.out.print(line[reverse] + " ");
+            System.out.print(sort[reverse] + " ");
 
 
 
