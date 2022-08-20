@@ -89,14 +89,29 @@ public class Main {
 
         System.out.println();
 
-        String lineArr = Arrays.toString(line);
 
-        StringBuilder sb =  new StringBuilder(lineArr);
-        sb.reverse();
-        sb.toString();
-        //String str = Arrays.toString(new StringBuilder[]{sb.reverse()});
+//        int lineArr = String.valueOf(line[]);
 
-        System.out.println(sb);
+
+
+
+//        StringBuilder sb =  new StringBuilder(lineArr);
+//        sb.reverse();
+////        sb.toString();
+//        //String str = Arrays.toString(new StringBuilder[]{sb.reverse()});
+//
+//        System.out.println(lineArr);
+
+        System.out.println();
+        System.out.println("Задание 7");
+
+        int sort [] = {5, 8, 2, 3, 9};
+        for (int element: sort);
+
+            System.out.println(Arrays.toString(sort));
+        int sort = sort-1;
+
+
 
     }
 }
