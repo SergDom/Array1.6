@@ -84,10 +84,19 @@ public class Main {
         System.out.println("Задание 6");
 
         int line [] = {5, 4, 3, 2, 1};
-        for (int i=0; i< line.length; i++){
-        System.out.print(line[i] + " ");}
+        for (int i=0; i< line.length; i++)
+        System.out.print(line[i] + " ");
 
         System.out.println();
+        int k=line.length-1;
+        for(;k>=0;k--)
+        System.out.print(line[k] + " ");
+
+
+//        Arrays.toString(line);
+
+//        System.out.println();
+//        System.out.println(Arrays.toString(line));
 
 
 //        int lineArr = String.valueOf(line[]);
@@ -105,11 +114,11 @@ public class Main {
         System.out.println();
         System.out.println("Задание 7");
 
-        int sort [] = {5, 8, 2, 3, 9};
-        for (int element: sort);
-
-            System.out.println(Arrays.toString(sort));
-        int sort = sort-1;
+//        int sort [] = {5, 8, 2, 3, 9};
+//        for (int element: sort);
+//
+//            System.out.println(sort);
+//        int sort = sort-1;
 
 
 
